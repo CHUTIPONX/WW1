@@ -1,0 +1,87 @@
+
+  .container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profileImage img {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .imageAnimation:hover {
+    transform: scale(1.05);
+  }
+  
+  .infoSection {
+    padding: 20px;
+  }
+  
+  .name {
+    font-size: 2.5rem;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .name:hover {
+    color: #007bff;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+  
+  .contactDetails {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .contactDetails li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .contactDetails li:hover {
+    color: #007bff;
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #007bff;
+    transform: scale(1.2);
+  }
+  

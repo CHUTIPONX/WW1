@@ -1,0 +1,88 @@
+.container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profileImage {
+    margin-bottom: 20px;
+  }
+  
+  .imageAnimation {
+    transition: transform 0.3s ease;
+  }
+  
+  .imageAnimation:hover {
+    transform: scale(1.1);
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .title:hover {
+    color: #007bff;
+  }
+  
+  .leadText {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+    line-height: 1.6;
+  }
+  
+  .subtitle {
+    font-size: 2rem;
+    color: #444;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .subtitle:hover {
+    color: #007bff;
+  }
+  
+  .historyText {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.6;
+  }
+  
+  .badgeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .badge {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    color: #555;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .badge:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
